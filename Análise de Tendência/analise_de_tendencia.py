@@ -26,7 +26,7 @@ st.subheader("Enviar arquivos:")
 # ==========================
 df_cc = None
 CAMINHO_DF_CC = (
-    r"C:/Users/ErickDaviddeSouzaSan/OneDrive - Pacaembu Construtora S.A/Área de Trabalho/Carga inicial VP6/"
+    r"../data"
     r"pacaembu_base_cadastro_projetos_ajustado_final.xlsx"
 )
 try:
