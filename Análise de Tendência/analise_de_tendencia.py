@@ -26,8 +26,9 @@ st.subheader("Enviar arquivos:")
 # ==========================
 df_cc = None
 CAMINHO_DF_CC = (
-    r"../data"
-    r"pacaembu_base_cadastro_projetos_ajustado_final.xlsx"
+    "https://raw.githubusercontent.com/"
+    "erick05081/gerador_tendencia/main/"
+    "data/pacaembu_base_cadastro_projetos_ajustado_final.xlsx"
 )
 try:
     df_cc = pd.read_excel(CAMINHO_DF_CC, sheet_name="Projeto")
