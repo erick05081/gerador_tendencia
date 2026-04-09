@@ -26,7 +26,7 @@ st.subheader("Enviar arquivos:")
 # ==========================
 df_cc = None
 CAMINHO_DF_CC = (
-    r"../data"
+    r"https://github.com/erick05081/gerador_tendencia/tree/main/data"
     r"pacaembu_base_cadastro_projetos_ajustado_final.xlsx"
 )
 try:
